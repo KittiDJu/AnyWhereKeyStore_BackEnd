@@ -1,4 +1,5 @@
 const express  = require('express');
+const mysal = require('mysql2');
 const db = require("./util/database");
 const app = express();
 
